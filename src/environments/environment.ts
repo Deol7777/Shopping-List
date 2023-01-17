@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+
+  production: false,
+  //locate in the datastorage.service.ts
+  recipesfirebase: 'https://shopping-app-8f694-default-rtdb.firebaseio.com/recipes.json',
+
+  //located in auth.service.ts
+  authKeyFirebase: 'AIzaSyDQHN62jwiSJ_ecbY62lxrYMlBIjnPi_U0'
 };
 
 /*
